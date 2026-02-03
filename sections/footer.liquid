@@ -1,0 +1,21 @@
+<footer class="footer">
+  <p>© {{ 'now' | date: '%Y' }} seVen. All rights reserved.</p>
+</footer>
+
+<style>
+.footer{
+  text-align:center;
+  padding:30px 0;
+  border-top:1px solid rgba(255,255,255,0.1);
+  color:var(--text);
+  font-size:0.9rem;
+}
+.footer p:hover{color:var(--accent);}
+</style>
+
+{% schema %}
+{
+  "name": "Footer",
+  "settings": []
+}
+{% endschema %}

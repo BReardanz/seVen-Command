@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ shop.name }} - {{ page_title }}</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    {{ content_for_header }}
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link href="{{ 'global.css' | asset_url }}" rel="stylesheet">
+    <script src="{{ 'glowing.js' | asset_url }}" defer></script>
+  </head>
+
+  <body class="theme-dark">
+    <div id="bootup">
+      <img src="{{ 'logo.png' | asset_url }}" alt="seVen logo" class="boot-logo">
+      <div class="boot-bar"></div>
+      <p class="boot-text">Entering seVen Command...</p>
+    </div>
+
+    <main id="MainContent">{{ content_for_layout }}</main>
+    {{ content_for_footer }}
+  </body>
+</html>

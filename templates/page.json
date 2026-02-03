@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {}
+    },
+    "footer": {
+      "type": "footer"
+    }
+  },
+  "order": ["main", "footer"]
+}

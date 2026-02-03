@@ -1,0 +1,8 @@
+{
+  "sections": {
+    "hero": { "type": "hero-banner" },
+    "featured": { "type": "featured-products" },
+    "footer": { "type": "footer" }
+  },
+  "order": ["hero", "featured", "footer"]
+}
